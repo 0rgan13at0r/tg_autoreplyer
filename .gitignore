@@ -1,0 +1,6 @@
+out/
+test.yml
+tg_session.*
+.vscode
+**/__pycache__/**
+LICENSE
