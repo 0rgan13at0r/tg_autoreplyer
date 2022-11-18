@@ -1,10 +1,13 @@
 version: "0.1.0"
-client:
-  api_id: # Your API ID
-  api_hash: # Your API Hash
-  phone_number: # Your phone number
-  cloud_password: # Your 2FA password if you have it
-user_ids: # Users IDs list
-  -
-  -
-  -
+application:
+  client:
+    api_id: # Your API Id
+    api_hash:   # Your API Hash
+    phone_number:   # Your Phone Number
+    cloud_password:  # You 2FA Password if you have
+  messages: 
+    -  # List Of Messages
+  user_ids:
+    -   # User IDs
+  time_settings:
+    wait: 5  # In minutes
