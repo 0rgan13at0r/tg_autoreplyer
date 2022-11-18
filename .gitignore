@@ -1,6 +1,11 @@
-out/
-test.yml
+Makefile
+out/*
+bin/
+config.yml
 tg_session.*
 .vscode
+test.yml
 **/__pycache__/**
 LICENSE
+.pytest_cache
+main.*
